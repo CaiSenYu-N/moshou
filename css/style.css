@@ -3,8 +3,35 @@ body {
   background-color: #000;
   height: 100%;
 }
-
 #header {
   height: 100%;
   background: url(file:///Users/caishuo/moshou/image/background-img.png) center  center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.navbar {
+  margin-top: 40px;
+}
+.navbar>li {
+  float: left;
+  height: 70px;
+  width: 160px;
+  border:2px solid #3f2a22;
+  border-left: none;
+  background-color: #261712;
+}
+.navber>li:first-child{
+  border:2px solid #3f2a22;
+}
+.navbar a {
+  display: block;
+  height: 70px;
+  line-height: 70px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #f8b408;
+}
+.navbar .logo {
+  width: 240px;
 }
