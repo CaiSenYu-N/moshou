@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol{
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.layout {
+  width: 900px;
+  margin: 0 auto;
+}
