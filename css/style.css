@@ -3,7 +3,7 @@
 }
 body {
   font: 12px/1.3 Arial;
-  background-color: #aaa;
+  background-color: #120d0a;
 }
 #header {
   /* height: 100%; */
@@ -82,13 +82,41 @@ body {
 .business .logos {
   width: 330px;
   float: left;
-  font-size: 14px;
+  font-size: 16px;
 }
 .business .info {
-  margin-left: 350px;
+  margin-left: 450px;
+}
+.business .contact a {
+  color:#fff;
 }
 .business .contact img {
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  width: 16px;
+  height: 16px;
+  margin-left: 20px;
+}
+.business .parters img {
+  width: 120px;
+  height: 80px;
+  margin-top: 100px;
+}
+.business .info-partner {
+  text-align: left;
+  height: 70px;
+}
+.business .info-partner a {
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+}
+.business .info-partner img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.suggestion {
+  font-size: 16.5px;
+  color: #aaa;
 }
