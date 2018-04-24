@@ -34,6 +34,11 @@ body {
   text-align: center;
   color: #f8b408;
 }
+.navbar a:hover {
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(43,20,33,.9);
+}
 .navbar .logo {
   width: 240px;
 }
@@ -78,6 +83,7 @@ body {
   width: 900px;
   margin: 0 auto;
   padding-top: 60px;
+  height: 350px;
 }
 .business .logos {
   width: 330px;
@@ -121,6 +127,15 @@ body {
   color: #aaa;
 }
 #footer {
+  height: 0px;
+  text-align: center;
+}
+#footer a {
+  color: #aaa;
+  font-size:16.5px;
+  margin: 20px;
+}
+#footer a:hover {
   color: #fff;
-  font-size: 16.5px;
+  font-size: 23px;
 }
