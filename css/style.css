@@ -117,8 +117,8 @@ body {
 }
 .business .info-partner a {
   color: #fff;
-  display: inline-block;
-  font-size: 20px;
+  /* display: inline-block; */
+  font-size: 18px;
 }
 .business .info-partner img {
   width: 30px;
